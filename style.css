@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+#botao{
+	padding: 1vh 0 0 0;
+}
+
+#mapa{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#informacoes{
+	display: none;
+	float: right;
+	right: 0;
+	position: absolute;
+}
+
+.quadro{
+	height: 100vh;
+	position: relative;
+	box-shadow: 0 -0 15px #055;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+#pesquisa{
+	position: fixed;
+}
